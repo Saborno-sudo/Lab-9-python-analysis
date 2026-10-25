@@ -1,0 +1,22 @@
+
+LOGISTIC REGRESSION OUTPUT
+----------------------------------------
+Predictors: smoke, ht, ui
+Response: low
+
+Accuracy: 0.6842
+Pseudo R-squared: 0.0625
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.69      0.96      0.80        25
+           1       0.67      0.15      0.25        13
+
+    accuracy                           0.68        38
+   macro avg       0.68      0.56      0.53        38
+weighted avg       0.68      0.68      0.61        38
+
+Confusion Matrix:
+[[24  1]
+ [11  2]]
